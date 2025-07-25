@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name
+  <title>Portfolio</title>
+  <style>
+    /* Navigation Bar */
+    @media (min-width: 768px) {
+    .navbar {
+      background-color: rgb(12, 12, 12);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+      margin-bottom: 30px;
+    }
+
+    .navbar ul {
+      display: flex;
+      padding: 0;
+      margin: 0;
+    }
+
+    .navbar li {
+      list-style: none;
+      margin: 0 15px;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      color: green;
+    }
+
+    .nav-logo img {
+      height: 50px;
+    }
+#projects{
+    font-size: medium;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    /* Sections */
+    #intro {
+      border: 2px solid black;
+      text-align: center;
+      font-style: oblique;
+      font-size: large;
+      font-weight: bold;
+      padding: 15px;
+    }
+#contact{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    .intro,
+    #about {
+      /* padding: 20px 30px; */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: justify;
+    }
+
+    h3 {
+      color: #222;
+    }
+  </style>
+}
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <!-- Left nav -->
+      <ul class="navleft">
+        <li><a href="https://www.google.com/" target="_main">Google</a></li>
+        <li><a href="https://www.instagram.com/"target="_main">Instagram</a></li>
+        <li><a href="https://x.com/" target="_main">Twitter</a> </li>
+        <li><a href="#contact" >Contact</a></li>
+      </ul>
+
+      <!-- Logo in center -->
+      <div class="nav-logo">
+        <img src="https://logo-icons.com/cdn/shop/files/201-logo-1712247205.603color-DAA520.svg?v=1712759419&width=416" alt="Logo">
+      </div>
+
+      <!-- Right nav -->
+      <ul class="navright">
+        <li><a href="https://links-iota-lake.vercel.app" target="_blank">LMS</a></li>
+        <li><a href="#">Interface</a></li>
+        <li><a href="https://www.linkedin.com/in/m-hasan-asif-9a7966349" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/HasanAsif64" target="_blank">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Intro Section -->
+  <section id="intro">
+    Every expert was once a beginner — keep learning, keep building.
+  </section>
+
+  <!-- Intro Paragraph -->
+  <section class="intro">
+    <h3>Intro:</h3>
+    <p>
+      Hello and welcome to my website! I'm Hasan Asif, a dedicated and enthusiastic student of Software Engineering with a deep interest in web development and programming.
+      Currently, I am focused on learning the core technologies of the web — HTML, CSS, and C++ — to build a strong foundation in both frontend design and programming logic.
+      This site is a reflection of my journey as a learner, where I experiment with ideas, create projects, and continue to grow my skills day by day.
+      My goal is to become a skilled full-stack developer and contribute to real-world solutions through code.
+      Whether you're here to explore my work, follow my progress, or connect with me — I'm glad to have you here. Stay tuned as I keep adding new features, projects, and ideas!
+    </p>
+    <hr>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <h3>About Me:</h3>
+    <p>
+      I’m currently a student of Software Engineering with a strong curiosity for how websites and applications work.
+      I enjoy learning new technologies and turning ideas into interactive digital experiences.
+      My current focus is on mastering HTML and CSS, and I’m slowly exploring JavaScript and problem-solving using C++.
+      In my free time, I like building small projects, sketching doodles, and exploring tech communities online.
+    </p>
+    <hr>
+  </section>
+   <section id="projects">
+    <h3>My Projects:</h3>
+    <p>Here are some of the projects I’ve created as I learn and grow in web development:</p>
+    <ul>
+        <li>
+            <strong>Link Management System</strong> – A simple HTML/CSS based system for organizing and accessing useful links.<br>
+            <a href="https://links-iota-lake.vercel.app" target="_blank">Live Preview</a>
+        </li>
+        <br>
+        <li>
+            <strong>Portfolio Website</strong> – You're looking at it! This site itself is a project that reflects my learning journey in web development.
+        </li>
+        <br>
+        <li>
+            <strong>Terminal Calculator (C++)</strong> – A console-based calculator I built while practicing C++ programming.
+        </li>
+    </ul>
+    <hr>
+</section>
+
+<section id="contact">
+    <h3>Contact Me:</h3>
+    <p>If you'd like to connect, collaborate, or just say hi, feel free to message me on WhatsApp directly.</p>
+    <a href="https://wa.me/923284088119" target="_blank" style="text-decoration: none; color: white;">
+        <button style="background-color: #25D366; color: white; border: none; padding: 10px 20px; font-size: 16px; border-radius: 5px; cursor: pointer;">
+            Message Me on WhatsApp
+        </button>
+    </a>
+</section>
+
+
+</body>
+</html>
